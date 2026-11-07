@@ -7,4 +7,3 @@ export interface Customer {
 }
 
 export type CreateCustomerInput = Omit<Customer, "id" | "created_at">;
-export type UpdateCustomerInput = Partial<CreateCustomerInput>;
